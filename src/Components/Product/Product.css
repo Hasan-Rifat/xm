@@ -1,0 +1,25 @@
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.card img {
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-text{
+  padding: 0 5px;
+}
+.btn-icon{
+  margin-left: 15px;
+  padding: 0 5px;
+}
+@media screen and(max-width: 828px) {
+  .card-info h5 {
+    font-size: 11px;
+  }
+}
